@@ -1,5 +1,5 @@
-package One;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /*  
 1. Remove odd numbers from the ArrayList and add the number 7 to the ArrayList
@@ -7,25 +7,23 @@ import java.util.ArrayList;
 3. 
 */
 
-public class First{
+public class TaskOne{
     public static void main(String[] args){
-        ArrayList<Integer> array = new ArrayList<Integer>();
-        array.add(2);
-        array.add(3);
-        array.add(5);
-        array.add(8);
-        array.add(10);
-        array.add(13);
+        ArrayList<String> blacklist = new ArrayList<String>();
+        blacklist.add("The Daily Newspaper");
+        blacklist.add("Definitive Desserts");
+        blacklist.add("Truth Daily");
+        blacklist.add("Official American News");
         System.out.println("\033[2J\033[H");
         System.out.print("Before: ");
-        printArray(array);
+        printArray(blacklist);
 
         /*
         your code here 
         */
-
+        
         System.out.print("After: ");
-        printArray(array);
+        printArray(blacklist);
     }
 
     public static void printArray(ArrayList a){

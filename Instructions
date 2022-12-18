@@ -1,0 +1,32 @@
+Congratulations! You have just been hired by the US government to help uphold the totalitarian regime through censorship.
+To guide you through this learning period, you'll need to complete a short tutorial before you take on full responsibilities of a
+senior censorship officer. In each section, complete all of the required tasks in order to learn the essential skills you
+will use to restrict the minds of the American people. Specifically, today you will be learning about ArrayLists. 
+
+To begin, open the TaskOne.java file and follow the directions below.
+You may have already learned about Arrays. ArrayLists are similar, but have a few key differences. Firstly, items in an
+ArrayList can be added or removed using the .add() and .remove() functions. Run the program, then take a look at the code. 
+Notice that the ArrayList is initialized as:
+    ArrayList<datatype> array = new ArrayList<datatype>()
+ArrayLists don't have to have a specific datatype unlike Arrays,
+Notice that it also doesn't start with any values. Instead, the .add(element) function adds the values to the end of the ArrayList. 
+
+Modify the portions of code that say "your code here" to complete the task
+The ArrayList in the code contains the names of blacklisted newspapers. 
+1. News just came in that the newspaper "Definitive Desserts" has been wrongly blacklisted! Remove this newspaper from the 
+blacklist using the .remove(element OR index) method.
+2. The owner of the popular "St. Louis Tribune" has recently published a story criticizing mint ice cream. The government
+feels that this is an offense worthy of a spot on the federal blacklist. Add this newspaper to the blacklist using the 
+.add(element) method.
+
+Useful methods for the next task:
+.get(index) returns the corresponding element in an ArrayList
+.size() returns the length of an ArrayList
+
+Next, open the TaskTwo.java file and follow the directions below.
+1. Make a method that detects badWords (found in the ArrayList) in an article title (String). It should return true if there is 
+a badWord present and false if there isn't. 
+2. Modify the method so that it also adds the article title to an ArrayList of goodArticles if it doesn't contain any badWords.
+3. Modify the method so that it also removes the badWords from the article title
+4. Modify the method so that it also replaces the bad words with the corresponding words from a different ArrayList with 
+GoodWords. (ex: "bad" should be replaced with "good", and "incapable" should be replaced with "experienced")  

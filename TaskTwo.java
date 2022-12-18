@@ -1,17 +1,11 @@
-package One;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 /* 
-1. Make a method that detects badWords (found in the ArrayList) in an article (String). It should return true if there is 
-a badWord present and false if there isn't. 
-2. Modify the method so that it also adds the article to an ArrayList of goodArticles if it doesn't contain any badWords
-3. Modify the method so that it also removes the badWords from the article
-4. Modify the method so that it also replaces the bad words with the corresponding (same index) words from a different 
-ArrayList with GoodWords.
+
 */
 
-public class Second{
+public class TaskTwo{
     static ArrayList<String> badWords = new ArrayList<String>(
         Arrays.asList("stupid", "idiot", "bad", "crap", "ugly", "evil", "incapable", "pineapple"));
     static ArrayList<String> goodWords = new ArrayList<String>(
